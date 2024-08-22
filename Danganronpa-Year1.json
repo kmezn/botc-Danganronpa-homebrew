@@ -1,0 +1,44 @@
+[
+    {
+        "author": "",
+        "id": "_meta",
+        "name": "BOTC Danganronpa Homebrew - Year 1",
+		"logo": "https://i.imgur.com/logo.png",
+		"background": "https://i.imgur.com/background-image.jpg"
+    },
+    {
+  "id": "Junko",
+  "name": "Junko",
+  "edition": "Danganronpa1",
+  "image": [
+    "https://i.imgur.com/widow.png",
+    "https://i.imgur.com/widow_good.png"
+  ],
+  "team": "demon",
+  "firstNight": 15,
+  "firstNightReminder": "Do normal demon stuff give minions if relevent :reminder:",
+  "otherNight": 15,
+  "otherNightReminder": "choose a player: you learn 2 characters 1 of which is correct",
+  "reminders": ["known"],
+  "remindersGlobal": ["Knows"],
+  "setup": false,
+  "ability": "Each night*, choose a player: they die. each night choose a player, you learn 2 characters, 1 of which is correct.",
+  "special": [
+    {
+      "name": "grimoire",
+      "type": "signal",
+      "time": "night"
+    }
+  ],
+  "jinxes": [
+    {"id": "alchemist", "reason": "The Alchemist can not have the Widow ability."},
+    {"id": "magician", "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."},
+    {"id": "poppygrower", "reason": "If the Poppy Grower is in play, the Widow does not see the Grimoire until the Poppy Grower dies."},
+    {"id": "damsel", "reason": "Only 1 jinxed character can be in play."},
+    {"id": "heretic", "reason": "Only 1 jinxed character can be in play."}
+  ]
+},
+    "golem",
+    "boomdandy",
+    "nodashii"
+]
