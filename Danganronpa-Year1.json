@@ -92,11 +92,11 @@
     "ability": "You'll do anything to help me get out of here, right? Once per day, if you nominate a good player and they are executed, that night choose a player: they die."
   },
   {
-    "id": "Genocide Jack",
+    "id": "GenocideJack",
     "name": "Genocide Jack",
     "edition": "DanganronpaV1",
     "image": [
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Genocide Jack.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/GenocideJack.png",
       "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/JunkoGood.png"
     ],
     "team": "minion",
@@ -105,6 +105,86 @@
     "reminders": [ "No Ability" ],
     "setup": false,
     "ability": "Murderous fiend!  Once per game, publicly announce your role and choose a player: they die."
+  },
+  {
+    "id": "Leon",
+    "name": "Leon Kuwata",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Leon.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/LeonGood.png"
+    ],
+    "team": "minion",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [ "No ability" ],
+    "setup": false,
+    "ability": "Deny your Ultimate  Once per game, if the demon dies by execution you are executed instead."
+  },
+  {
+    "id": "Toko",
+    "name": "Toko Fukawa",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Toko.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/TokoEvil.png"
+    ],
+    "team": "outsider",
+    "firstNight": 4,
+    "firstNightReminder": "Point to the known player & show their character token. :reminder:",
+    "otherNight": 0,
+    "reminders": [ "Master" ],
+    "remindersGlobal": [ "Master" ],
+    "setup": false,
+    "ability": "M-m-m-master! You start knowing 1 player: you are mad that they are a good townsfolk. You may only vote when that player nominates or votes."
+  },
+  {
+    "id": "Byakuya",
+    "name": "Byakuya Togami",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Byakuya.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/ByakuyaEvil.png"
+    ],
+    "team": "outsider",
+    "firstNight": 5,
+    "firstNightReminder": "Show the character tokens of all in-play Minions.",
+    "otherNight": 0,
+    "setup": false,
+    "ability": "Perhaps this will be interesting after all  You start knowing which minions are in play. If good wins without you disclosing this information victory is yours alone."
+  },
+  {
+    "id": "Sakura",
+    "name": "Sakura Ogami",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Sakura.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/SakuraEvil.png"
+    ],
+    "team": "outsider",
+    "firstNight": 0,
+    "otherNight": 15,
+    "reminders": [ "Stupid" ],
+    "remindersGlobal": [ "Stupid" ],
+    "setup": false,
+    "ability": "In the end... If no good player votes when you nominate, all townsfolk are stupid until dusk tomorrow."
+  },
+  {
+    "id": "Kiyotaka",
+    "name": "Kiyotaka Ishimaru",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Taka.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/TakaEvil.png"
+    ],
+    "team": "outsider",
+    "firstNight": 0,
+    "otherNight": 8,
+    "otherNightReminder": "Night 2: Taka points to a player. Show the character token of that player. :reminder:",
+    "reminders": [ "Bro" ],
+    "remindersGlobal": [ "Bro" ],
+    "setup": false,
+    "ability": "Find your bro On night 2, choose a player (not yourself): learn their role and become their alignment."
   },
   "golem",
   "washerwoman",
