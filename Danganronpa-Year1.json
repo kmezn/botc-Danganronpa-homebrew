@@ -1,8 +1,8 @@
 [
   {
-    "author": "",
+    "author": "Neneav",
     "id": "_meta",
-    "name": "BOTC Danganronpa Homebrew - Year 1",
+    "name": "Danganronpa V1 Homebrew",
     "logo": "https://i.imgur.com/logo.png",
     "background": "https://i.imgur.com/background-image.jpg"
   },
@@ -11,40 +11,104 @@
     "name": "Monokuma",
     "edition": "DanganronpaV1",
     "image": [
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/Year1Assets/Monokuma.png",
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/Year1Assets/MonokumaGood.png"
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Monokuma.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/MonokumaGood.png"
     ],
     "team": "demon",
-    "firstNight": 15,
-    "firstNightReminder": "Do normal demon stuff give minions if relevent :reminder:",
-    "otherNight": 15,
-    "otherNightReminder": "choose a player to kill and a player to learn a character :reminder:",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 5,
+    "otherNightReminder": "Monokuma points to a player, if no one was executed today Monokuma points to 2 players. :reminder: or :reminder: :reminder:",
     "reminders": [ "Dead" ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. If no one was executed today, choose a second player: they die."
+    "ability": "Puhuhu! Each night*, choose a player: they die. If no one was executed today, choose a second player: they die."
   },
   {
     "id": "Junko",
-    "name": "Junko",
+    "name": "Junko Enoshima",
     "edition": "DanganronpaV1",
     "image": [
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/Year1Assets/Junko.png",
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/Year1Assets/JunkoGood.png"
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Junko.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/JunkoGood.png"
     ],
     "team": "demon",
-    "firstNight": 15,
-    "firstNightReminder": "Do normal demon stuff give minions if relevent :reminder:",
-    "otherNight": 15,
-    "otherNightReminder": "choose a player to kill and a player to learn a character :reminder:",
+    "firstNight": 2,
+    "firstNightReminder": "Junko points to a player. Show 2 character tokens, 1 of which is correct.",
+    "otherNight": 5,
+    "otherNightReminder": "Junko points to a player. Show 2 character tokens, 1 of which is correct. Junko points to a player. :reminder:",
     "reminders": [ "Dead" ],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. each night choose a player, you learn 2 characters, 1 of which is correct."
+    "ability": "Bluffs are sooooo boring... Each night*, choose a player: they die. Each night, choose a player: you learn 2 characters, 1 of which is correct."
+  },
+  {
+    "id": "mukuro",
+    "name": "Mukuro Ikusaba",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Mukuro.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/MukuroGood.png"
+    ],
+    "team": "demon",
+    "firstNight": 1,
+    "firstNightReminder": "Mukuro points to a player. :reminder:",
+    "otherNight": 5,
+    "otherNightReminder": "Mukuro points to a player. :reminder:",
+    "reminders": [ "Dead", "Junko" ],
+    "remindersGlobal": [ "Junko" ],
+    "setup": false,
+    "ability": "H-Huh? This wasn't...supposed to... Each night*, choose a player: they die. Night 1, choose a player: if you die by execution they become evil and Junko Enoshima."
+  },
+  {
+    "id": "celtestia",
+    "name": "Celtestia Ludenberg",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Celeste.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/CelesteGood.png"
+    ],
+    "team": "minion",
+    "firstNight": 0,
+    "otherNight": 6,
+    "otherNightReminder": "Night 2: Celeste points to a player. :reminder:",
+    "reminders": [ "Evil" ],
+    "remindersGlobal": [ "Evil" ],
+    "setup": false,
+    "ability": "Do as I say, swine! On night 2, choose a player (not yourself): they become evil."
+  },
+  {
+    "id": "Sayaka",
+    "name": "Sayaka Maizono",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Sayaka.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/SayakaGood.png"
+    ],
+    "team": "minion",
+    "firstNight": 0,
+    "otherNight": 7,
+    "otherNightReminder": "If Sayaka successfully nominated a good player today: Sayaka points to a player. :reminder:",
+    "reminders": [ "Dead" ],
+    "setup": false,
+    "ability": "You'll do anything to help me get out of here, right? Once per day, if you nominate a good player and they are executed, that night choose a player: they die."
+  },
+  {
+    "id": "Genocide Jack",
+    "name": "Genocide Jack",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Genocide Jack.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/JunkoGood.png"
+    ],
+    "team": "minion",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [ "No Ability" ],
+    "setup": false,
+    "ability": "Murderous fiend!  Once per game, publicly announce your role and choose a player: they die."
   },
   "golem",
   "washerwoman",
-  "Choirboy",
   "Dreamer",
   "Empath",
-  "boomdandy",
-  "nodashii"
+  "boomdandy"
 ]
