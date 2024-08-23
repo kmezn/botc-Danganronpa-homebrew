@@ -3,8 +3,7 @@
     "author": "Neneav",
     "id": "_meta",
     "name": "Danganronpa V1 Homebrew",
-    "logo": "https://i.imgur.com/logo.png",
-    "background": "https://i.imgur.com/background-image.jpg"
+    "background": "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/v1Background.png"
   },
   {
     "id": "Monokuma",
@@ -221,7 +220,7 @@
     "name": "Aoi Asahina",
     "edition": "DanganronpaV1",
     "image": [
-      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/HinaEvil.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Hina.png",
       "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/HinaEvil.png"
     ],
     "team": "townsfolk",
