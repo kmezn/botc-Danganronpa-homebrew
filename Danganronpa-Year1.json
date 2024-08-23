@@ -21,7 +21,7 @@
     "otherNightReminder": "Monokuma points to a player, if no one was executed today Monokuma points to 2 players. :reminder: or :reminder: :reminder:",
     "reminders": [ "Dead" ],
     "setup": false,
-    "ability": "Puhuhu! Each night*, choose a player: they die. If no one was executed today, choose a second player: they die."
+    "ability": "Each night*, choose a player: they die. If no one was executed today, choose a second player: they die."
   },
   {
     "id": "Junko",
@@ -38,7 +38,7 @@
     "otherNightReminder": "Junko points to a player. Show 2 character tokens, 1 of which is correct. Junko points to a player. :reminder:",
     "reminders": [ "Dead" ],
     "setup": false,
-    "ability": "Bluffs are sooooo boring... Each night*, choose a player: they die. Each night, choose a player: you learn 2 characters, 1 of which is correct."
+    "ability": "Each night*, choose a player: they die. Each night, choose a player: you learn 2 characters, 1 of which is correct."
   },
   {
     "id": "mukuro",
@@ -54,9 +54,8 @@
     "otherNight": 25,
     "otherNightReminder": "Mukuro points to a player. :reminder:",
     "reminders": [ "Dead", "Junko" ],
-    "remindersGlobal": [ "Junko" ],
     "setup": false,
-    "ability": "H-Huh? This wasn't...supposed to... Each night*, choose a player: they die. Night 1, choose a player: if you die by execution they become evil and Junko Enoshima."
+    "ability": "Each night*, choose a player: they die. Night 1, choose a player: if you die by execution they become evil and Junko Enoshima."
   },
   {
     "id": "celeste",
@@ -71,9 +70,8 @@
     "otherNight": 26,
     "otherNightReminder": "Night 2: Celeste points to a player. :reminder:",
     "reminders": [ "Evil" ],
-    "remindersGlobal": [ "Evil" ],
     "setup": false,
-    "ability": "Do as I say, swine! On night 2, choose a player (not yourself): they become evil."
+    "ability": "On night 2, choose a player (not yourself): they become evil."
   },
   {
     "id": "Sayaka",
@@ -89,7 +87,7 @@
     "otherNightReminder": "If Sayaka successfully nominated a good player today: Sayaka points to a player. :reminder:",
     "reminders": [ "Dead" ],
     "setup": false,
-    "ability": "You'll do anything to help me get out of here, right? Once per day, if you nominate a good player and they are executed, that night choose a player: they die."
+    "ability": "Once per day, if you nominate a good player and they are executed, that night choose a player: they die."
   },
   {
     "id": "GenocideJack",
@@ -104,7 +102,7 @@
     "otherNight": 0,
     "reminders": [ "No Ability" ],
     "setup": false,
-    "ability": "Murderous fiend!  Once per game, publicly announce your role and choose a player: they die."
+    "ability": "Once per game, publicly announce your role and choose a player: they die."
   },
   {
     "id": "Leon",
@@ -119,7 +117,7 @@
     "otherNight": 0,
     "reminders": [ "No ability" ],
     "setup": false,
-    "ability": "Deny your Ultimate  Once per game, if the demon dies by execution you are executed instead."
+    "ability": "Once per game, if the demon dies by execution you are executed instead."
   },
   {
     "id": "Toko",
@@ -134,9 +132,8 @@
     "firstNightReminder": "Point to the known player & show their character token. :reminder:",
     "otherNight": 0,
     "reminders": [ "Master" ],
-    "remindersGlobal": [ "Master" ],
     "setup": false,
-    "ability": "M-m-m-master! You start knowing 1 player: you are mad that they are a good townsfolk. You may only vote when that player nominates or votes."
+    "ability": "You start knowing 1 player: you are mad that they are a good townsfolk. You may only vote when that player nominates or votes."
   },
   {
     "id": "Byakuya",
@@ -151,7 +148,7 @@
     "firstNightReminder": "Show the character tokens of all in-play Minions.",
     "otherNight": 0,
     "setup": false,
-    "ability": "Perhaps this will be interesting after all  You start knowing which minions are in play. If good wins without you disclosing this information victory is yours alone."
+    "ability": "You start knowing which minions are in play. If good wins without you disclosing this information victory is yours alone."
   },
   {
     "id": "Sakura",
@@ -165,9 +162,8 @@
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [ "Stupid" ],
-    "remindersGlobal": [ "Stupid" ],
     "setup": false,
-    "ability": "In the end... If no good player votes when you nominate, all townsfolk are stupid until dusk tomorrow."
+    "ability": "If no good player votes when you nominate, all townsfolk are stupid until dusk tomorrow."
   },
   {
     "id": "Taka",
@@ -182,9 +178,8 @@
     "otherNight": 28,
     "otherNightReminder": "Night 2: Taka points to a player. Show the character token of that player. :reminder:",
     "reminders": [ "Bro" ],
-    "remindersGlobal": [ "Bro" ],
     "setup": false,
-    "ability": "Find your bro On night 2, choose a player (not yourself): learn their role and become their alignment."
+    "ability": "On night 2, choose a player (not yourself): learn their role and become their alignment."
   },
   {
     "id": "RoboJustice",
@@ -200,7 +195,7 @@
     "otherNightReminder": "choose a player to kill and a player to learn a character :reminder:",
     "remindersGlobal": [ "Was Robo Justice" ],
     "setup": false,
-    "ability": "Who is the suspicious figure? Once per day, you may tell the storyteller a townsfolk. If that townsfolk is not in play, become that townsfolk: you are no longer Robo Justice."
+    "ability": "Once per day, you may tell the storyteller a townsfolk. If that townsfolk is not in play, become that townsfolk: you are no longer Robo Justice."
   },
   {
     "id": "Makoto",
@@ -214,7 +209,7 @@
     "firstNight": 0,
     "otherNight": 0,
     "setup": false,
-    "ability": "Plot armour You cannot die by execution."
+    "ability": "You cannot die by execution."
   },
   {
     "id": "Hina",
@@ -230,9 +225,8 @@
     "otherNight": 21,
     "otherNightReminder": "Hina points to a player. Put Hina to sleep. Wake the chosen player. Show the Aoi Asahina character token and point to Hina. :reminder:",
     "reminders": [ "Stupid" ],
-    "remindersGlobal": [ "Stupid" ],
     "setup": false,
-    "ability": "Share the doughnuts Each night, choose a player: they learn your identity and become stupid until dusk tomorrow."
+    "ability": "Each night, choose a player: they learn your identity and become stupid until dusk tomorrow."
   },
   {
     "id": "Kyoko",
@@ -247,7 +241,7 @@
     "otherNight": 0,
     "reminders": [ "No Ability" ],
     "setup": false,
-    "ability": "Ultimate detective  Once per game, during the day, you may explain you theory to the storyteller. They will tell you if you are hot or cold."
+    "ability": "Once per game, during the day, you may explain you theory to the storyteller. They will tell you if you are hot or cold."
   },
   {
     "id": "Chihiro",
@@ -262,9 +256,8 @@
     "otherNight": 35,
     "otherNightReminder": "Show the Alter Ego token.",
     "reminders": [ "Alter Ego", "No Ability" ],
-    "remindersGlobal": [ "Alter Ego" ],
     "setup": false,
-    "ability": "Become strong If you die at night; become Alter Ego. Gain the ability to, once per game, gain the details of a conversation you were not part of from the Storyteller."
+    "ability": "If you die at night; become Alter Ego. Gain the ability to, once per game, gain the details of a conversation you were not part of from the Storyteller."
   },
   {
     "id": "Hifumi",
@@ -279,9 +272,8 @@
     "otherNight": 29,
     "otherNightReminder": "Hifumi points to a player and gives a thumbs up or thumbs down, nod or shake your head. :reminder:",
     "reminders": [ "Sketched", "No Ability" ],
-    "remindersGlobal": [ "Sketched" ],
     "setup": false,
-    "ability": "Embrace 2D  Once per game, at night, you may choose a player (not yourself): guess their alignment. The storyteller will tell you whether you are right or wrong."
+    "ability": "Once per game, at night, you may choose a player (not yourself): guess their alignment. The storyteller will tell you whether you are right or wrong."
   },
   {
     "id": "Hiro",
@@ -296,7 +288,7 @@
     "otherNight": 0,
     "reminders": [ "Stupid" ],
     "setup": false,
-    "ability": "Still the best fortune teller in the world  Each day, you may visit the Storyteller to learn 1 thing in private: the storyteller roles a d6, on a 1, 2, 3 or 4 you are stupid until morning."
+    "ability": "Each day, you may visit the Storyteller to learn 1 thing in private: the storyteller roles a d6, on a 1, 2, 3 or 4 you are stupid until morning."
   },
   {
     "id": "Mondo",
@@ -311,8 +303,7 @@
     "firstNightReminder": "Point to the known player & show their character token. :reminder:",
     "otherNight": 0,
     "reminders": [ "Bro" ],
-    "remindersGlobal": [ "Bro" ],
     "setup": false,
-    "ability": "Believe in better butter  You start knowing the name and role of a good player, once per game if they are killed you are killed instead."
+    "ability": "You start knowing the name and role of a good player, once per game if they are killed you are killed instead."
   }
 ]
