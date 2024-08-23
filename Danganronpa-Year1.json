@@ -59,7 +59,7 @@
     "ability": "H-Huh? This wasn't...supposed to... Each night*, choose a player: they die. Night 1, choose a player: if you die by execution they become evil and Junko Enoshima."
   },
   {
-    "id": "celtestia",
+    "id": "celeste",
     "name": "Celtestia Ludenberg",
     "edition": "DanganronpaV1",
     "image": [
@@ -170,7 +170,7 @@
     "ability": "In the end... If no good player votes when you nominate, all townsfolk are stupid until dusk tomorrow."
   },
   {
-    "id": "Kiyotaka",
+    "id": "Taka",
     "name": "Kiyotaka Ishimaru",
     "edition": "DanganronpaV1",
     "image": [
@@ -186,9 +186,133 @@
     "setup": false,
     "ability": "Find your bro On night 2, choose a player (not yourself): learn their role and become their alignment."
   },
-  "golem",
-  "washerwoman",
-  "Dreamer",
-  "Empath",
-  "boomdandy"
+  {
+    "id": "RoboJustice",
+    "name": "Robo Justice",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/RoboJustice.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/RoboJusticeEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "otherNightReminder": "choose a player to kill and a player to learn a character :reminder:",
+    "remindersGlobal": [ "Was Robo Justice" ],
+    "setup": false,
+    "ability": "Who is the suspicious figure? Once per day, you may tell the storyteller a townsfolk. If that townsfolk is not in play, become that townsfolk: you are no longer Robo Justice."
+  },
+  {
+    "id": "Makoto",
+    "name": "Makoto Naegi",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Makoto.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/MakotoEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "setup": false,
+    "ability": "Plot armour You cannot die by execution."
+  },
+  {
+    "id": "Hina",
+    "name": "Aoi Asahina",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/HinaEvil.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/HinaEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 2,
+    "firstNightReminder": "Hina points to a player. Put Hina to sleep. Wake the chosen player. Show the Aoi Asahina character token and point to Hina. :reminder:",
+    "otherNight": 1,
+    "otherNightReminder": "Hina points to a player. Put Hina to sleep. Wake the chosen player. Show the Aoi Asahina character token and point to Hina. :reminder:",
+    "reminders": [ "Stupid" ],
+    "remindersGlobal": [ "Stupid" ],
+    "setup": false,
+    "ability": "Share the doughnuts Each night, choose a player: they learn your identity and become stupid until dusk tomorrow."
+  },
+  {
+    "id": "Kyoko",
+    "name": "Kyoko Kirigiri",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Kyoko.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/KyokoEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [ "No Ability" ],
+    "setup": false,
+    "ability": "Ultimate detective  Once per game, during the day, you may explain you theory to the storyteller. They will tell you if you are hot or cold."
+  },
+  {
+    "id": "Chihiro",
+    "name": "Chihiro Fujisaki",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Chihiro.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/ChihiroEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 15,
+    "otherNightReminder": "Show the Alter Ego token.",
+    "reminders": [ "Alter Ego", "No Ability" ],
+    "remindersGlobal": [ "Alter Ego" ],
+    "setup": false,
+    "ability": "Become strong If you die at night; become Alter Ego. Gain the ability to, once per game, gain the details of a conversation you were not part of from the Storyteller."
+  },
+  {
+    "id": "Hifumi",
+    "name": "Hifumi Yamada",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Hifumi.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/HifumiEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 9,
+    "otherNightReminder": "Hifumi points to a player and gives a thumbs up or thumbs down, nod or shake your head. :reminder:",
+    "reminders": [ "Sketched", "No Ability" ],
+    "remindersGlobal": [ "Sketched" ],
+    "setup": false,
+    "ability": "Embrace 2D  Once per game, at night, you may choose a player (not yourself): guess their alignment. The storyteller will tell you whether you are right or wrong."
+  },
+  {
+    "id": "Hiro",
+    "name": "Yasuhiro Hagakure",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Hiro.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/HiroEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [ "Stupid" ],
+    "setup": false,
+    "ability": "Still the best fortune teller in the world  Each day, you may visit the Storyteller to learn 1 thing in private: the storyteller roles a d6, on a 1, 2, 3 or 4 you are stupid until morning."
+  },
+  {
+    "id": "Mondo",
+    "name": "Mondo Owada",
+    "edition": "DanganronpaV1",
+    "image": [
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/Mondo.png",
+      "https://raw.githubusercontent.com/kmezn/botc-Danganronpa-homebrew/main/AppAssets/v1Assets/SwitchedTokens/MondoEvil.png"
+    ],
+    "team": "townsfolk",
+    "firstNight": 6,
+    "firstNightReminder": "Point to the known player & show their character token. :reminder:",
+    "otherNight": 0,
+    "reminders": [ "Bro" ],
+    "remindersGlobal": [ "Bro" ],
+    "setup": false,
+    "ability": "Believe in better butter  You start knowing the name and role of a good player, once per game if they are killed you are killed instead."
+  }
 ]
